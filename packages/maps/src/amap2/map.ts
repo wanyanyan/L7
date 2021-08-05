@@ -21,6 +21,7 @@ import {
   TYPES,
 } from '@antv/l7-core';
 import { DOM } from '@antv/l7-utils';
+import { EventEmitter } from 'eventemitter3';
 import { mat4, vec2, vec3 } from 'gl-matrix';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
@@ -56,7 +57,7 @@ let pendingResolveQueue: Array<() => void> = [];
  * AMapService
  */
 @injectable()
-export default class AMapService
+export default class AMapService extends EventEmitter
   implements IMapService<AMap.Map & IAMapInstance> {
   public version: string = Version['GAODE2.x'];
   /**
@@ -78,10 +79,6 @@ export default class AMapService
 
   @inject(TYPES.ICoordinateSystemService)
   private readonly coordinateSystemService: ICoordinateSystemService;
-
-  @inject(TYPES.IEventEmitter)
-  private eventEmitter: any;
-
   private markerContainer: HTMLElement;
   private $mapContainer: HTMLElement | null;
 
@@ -162,16 +159,18 @@ export default class AMapService
   }
 
   //  map event
+  // @ts-ignore
   public on(type: string, handler: (...args: any[]) => void): void {
     if (MapServiceEvent.indexOf(type) !== -1) {
-      this.eventEmitter.on(type, handler);
+      super.on(type, handler);
     } else {
       this.map.on(type, handler);
     }
   }
+  // @ts-ignore
   public off(type: string, handler: (...args: any[]) => void): void {
     if (MapServiceEvent.indexOf(type) !== -1) {
-      this.eventEmitter.off(type, handler);
+      super.off(type, handler);
     } else {
       this.map.off(type, handler);
     }
@@ -495,13 +494,15 @@ export default class AMapService
         : (renderCanvas?.toDataURL('image/png') as string);
     return layersPng;
   }
-
+  // @ts-ignore
   public emit(name: string, ...args: any[]) {
-    this.eventEmitter.emit(name, ...args);
+    super.emit(name, ...args);
   }
 
+  // @ts-ignore
   public once(name: string, ...args: any[]) {
-    this.eventEmitter.once(name, ...args);
+    // @ts-ignore
+    super.once(name, ...args);
   }
 
   public destroy() {

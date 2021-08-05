@@ -50,7 +50,6 @@ import { isFunction, isObject } from 'lodash';
 import { normalizePasses } from '../plugins/MultiPassRendererPlugin';
 import { BlendTypes } from '../utils/blend';
 import { handleStyleDataMapping } from '../utils/dataMappingStyle';
-import baseLayerSchema from './schema';
 /**
  * 分配 layer id
  */

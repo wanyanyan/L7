@@ -19,9 +19,11 @@ import {
 } from '@antv/l7-core';
 import { Map } from '@antv/l7-map';
 import { DOM } from '@antv/l7-utils';
+import { EventEmitter } from 'eventemitter3';
 import { mat4, vec2, vec3 } from 'gl-matrix';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
+
 import { Version } from '../version';
 import Viewport from './Viewport';
 const EventMap: {
@@ -39,7 +41,8 @@ const LNGLAT_OFFSET_ZOOM_THRESHOLD = 12;
  * AMapService
  */
 @injectable()
-export default class L7MapService implements IMapService<Map> {
+export default class L7MapService extends EventEmitter
+  implements IMapService<Map> {
   public version: string = Version.L7MAP;
   public map: Map;
 
@@ -52,8 +55,6 @@ export default class L7MapService implements IMapService<Map> {
   @inject(TYPES.ICoordinateSystemService)
   private readonly coordinateSystemService: ICoordinateSystemService;
 
-  @inject(TYPES.IEventEmitter)
-  private eventEmitter: any;
   private viewport: Viewport;
   private markerContainer: HTMLElement;
   private cameraChangedCallback: (viewport: IViewport) => void;
@@ -71,14 +72,16 @@ export default class L7MapService implements IMapService<Map> {
   }
 
   //  map event
+  // @ts-ignore
   public on(type: string, handle: (...args: any[]) => void): void {
     if (MapServiceEvent.indexOf(type) !== -1) {
-      this.eventEmitter.on(type, handle);
+      super.on(type, handle);
     } else {
       // 统一事件名称
       this.map.on(EventMap[type] || type, handle);
     }
   }
+  // @ts-ignore
   public off(type: string, handle: (...args: any[]) => void): void {
     this.map.off(EventMap[type] || type, handle);
   }
@@ -279,17 +282,20 @@ export default class L7MapService implements IMapService<Map> {
   }
 
   public destroy() {
-    this.eventEmitter.removeAllListeners();
+    super.removeAllListeners();
     if (this.map) {
       this.map.remove();
       this.$mapContainer = null;
     }
   }
+  // @ts-ignore
   public emit(name: string, ...args: any[]) {
-    this.eventEmitter.emit(name, ...args);
+    super.emit(name, ...args);
   }
+  // @ts-ignore
   public once(name: string, ...args: any[]) {
-    this.eventEmitter.once(name, ...args);
+    // @ts-ignore
+    super.once(name, ...args);
   }
 
   public getMapContainer() {

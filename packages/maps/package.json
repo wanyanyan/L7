@@ -33,6 +33,7 @@
     "@babel/runtime": "^7.7.7",
     "@types/amap-js-api": "^1.4.6",
     "@types/mapbox-gl": "^1.11.2",
+    "eventemitter3": "^4.0.0",
     "gl-matrix": "^3.1.0",
     "inversify": "^5.0.1",
     "mapbox-gl": "^1.2.1",
