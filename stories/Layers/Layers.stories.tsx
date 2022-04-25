@@ -26,6 +26,7 @@ import Polygon3D from './components/Polygon3D';
 import WorldDemo from './components/polygon_line';
 import ImageLayerDemo from './components/RasterImage';
 import RasterLayerDemo from './components/RasterLayer';
+import RasterWorldDemo from './components/rasterWorld';
 import TextLayerDemo from './components/Text';
 
 // @ts-ignore
@@ -53,6 +54,7 @@ storiesOf('图层', module)
   .add('网格热力图', () => <HexagonLayerDemo />)
   .add('网格热力图2', () => <GridTest />)
   .add('栅格', () => <RasterLayerDemo />)
+  .add('栅格全球', () => <RasterWorldDemo />)
   .add('图片', () => <ImageLayerDemo />)
   .add('网格测试', () => <OffsetTest />)
   .add('图层高亮', () => <HighLight />)
