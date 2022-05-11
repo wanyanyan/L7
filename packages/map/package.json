@@ -1,6 +1,6 @@
 {
   "name": "@cgcs2000/l7-map",
-  "version": "2.8.35",
+  "version": "2.8.36",
   "description": "l7 map",
   "keywords": [],
   "author": "thinkinggis <lzx199065@gmail.com>",
@@ -37,8 +37,8 @@
   },
   "homepage": "https://github.com/antvis/L7#readme",
   "dependencies": {
-    "@cgcs2000/l7-utils": "^2.8.35",
     "@babel/runtime": "^7.7.7",
+    "@cgcs2000/l7-utils": "^2.8.36",
     "@mapbox/point-geometry": "^0.1.0",
     "@mapbox/unitbezier": "^0.0.0",
     "eventemitter3": "^4.0.4",

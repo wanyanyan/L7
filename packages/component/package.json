@@ -1,6 +1,6 @@
 {
   "name": "@cgcs2000/l7-component",
-  "version": "2.8.35",
+  "version": "2.8.36",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -20,14 +20,14 @@
     "watch": "BABEL_ENV=cjs babel src --watch --root-mode upward --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments",
     "lint:ts": "run-p -c lint:ts-*",
     "test": "jest",
-    "sync": "tnpm sync"
+    "sync": "npm sync"
   },
   "author": "lzxue",
   "license": "ISC",
   "dependencies": {
-    "@cgcs2000/l7-core": "^2.8.35",
-    "@cgcs2000/l7-utils": "^2.8.35",
     "@babel/runtime": "^7.7.7",
+    "@cgcs2000/l7-core": "^2.8.36",
+    "@cgcs2000/l7-utils": "^2.8.36",
     "eventemitter3": "^4.0.0",
     "inversify": "^5.0.1",
     "lodash": "^4.17.15",

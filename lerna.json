@@ -1,14 +1,22 @@
 {
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md"],
-      "allowBranch": ["publish", "docs", "cgcs2000"],
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "allowBranch": [
+        "publish",
+        "docs",
+        "cgcs2000"
+      ],
       "message": "chore: publish",
       "registry": "https://registry.npmjs.org"
     }
   },
-  "version": "2.8.35",
+  "version": "2.8.36",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "publishConfig": {
