@@ -49,7 +49,7 @@ export default {
       file: pkg.unpkg,
       sourcemap: true,
       globals: {
-        '@antv/l7': 'L7'
+        '@cgcs2000/l7': 'L7'
       }
     }
   ]
