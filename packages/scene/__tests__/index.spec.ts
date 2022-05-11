@@ -1,5 +1,5 @@
 // @ts-ignore
-import { Mapbox } from '@antv/l7-maps';
+import { Mapbox } from '@cgcs2000/l7-maps';
 import { Scene } from '../src/';
 describe('template', () => {
   const el = document.createElement('div');

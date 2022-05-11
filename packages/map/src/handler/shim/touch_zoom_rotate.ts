@@ -1,4 +1,4 @@
-import { isMini } from '@antv/l7-utils';
+import { isMini } from '@cgcs2000/l7-utils';
 import TapDragZoomHandler from '../tap/tap_drag_zoom';
 import { TouchRotateHandler, TouchZoomHandler } from '../touch';
 

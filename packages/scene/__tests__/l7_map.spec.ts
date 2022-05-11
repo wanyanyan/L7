@@ -1,6 +1,6 @@
 // @ts-ignore
-import { PolygonLayer } from '@antv/l7-layers';
-import { Map } from '@antv/l7-maps';
+import { PolygonLayer } from '@cgcs2000/l7-layers';
+import { Map } from '@cgcs2000/l7-maps';
 import { Scene } from '../src/';
 describe('template', () => {
   const el = document.createElement('div');

@@ -1,4 +1,4 @@
-import { gl, IModelUniform } from '@antv/l7-core';
+import { gl, IModelUniform } from '@cgcs2000/l7-core';
 import BaseModel from '../../core/BaseModel';
 import Tile from '../utils/Tile';
 

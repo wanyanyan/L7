@@ -8,8 +8,8 @@ import {
   IMapService,
   IRendererService,
   TYPES,
-} from '@antv/l7-core';
-import { $window } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { $window } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 

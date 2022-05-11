@@ -3,7 +3,7 @@ import {
   DOM,
   encodePickingColor,
   isMini,
-} from '@antv/l7-utils';
+} from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import { TYPES } from '../../types';

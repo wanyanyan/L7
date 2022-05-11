@@ -38,9 +38,9 @@ export default {
     terser()
   ],
   external: [
-    '@antv/l7-core',
-    '@antv/l7-scene',
-    '@antv/l7-layers'
+    '@cgcs2000/l7-core',
+    '@cgcs2000/l7-scene',
+    '@cgcs2000/l7-layers'
   ],
   output: [
     {

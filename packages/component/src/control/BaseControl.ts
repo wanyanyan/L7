@@ -6,12 +6,12 @@ import {
   IRendererService,
   PositionType,
   TYPES,
-} from '@antv/l7-core';
-import { DOM } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { DOM } from '@cgcs2000/l7-utils';
 import { EventEmitter } from 'eventemitter3';
 import { Container } from 'inversify';
 
-export { PositionType } from '@antv/l7-core';
+export { PositionType } from '@cgcs2000/l7-core';
 
 let controlId = 0;
 export default class Control extends EventEmitter {

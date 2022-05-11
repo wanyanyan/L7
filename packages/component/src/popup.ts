@@ -6,14 +6,14 @@ import {
   IPopupOption,
   ISceneService,
   TYPES,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import {
   anchorTranslate,
   anchorType,
   applyAnchorClass,
   bindAll,
   DOM,
-} from '@antv/l7-utils';
+} from '@cgcs2000/l7-utils';
 import { EventEmitter } from 'eventemitter3';
 import { Container } from 'inversify';
 

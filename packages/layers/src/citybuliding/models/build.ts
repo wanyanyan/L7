@@ -1,5 +1,5 @@
-import { AttributeType, gl, IEncodeFeature, IModel } from '@antv/l7-core';
-import { rgb2arr } from '@antv/l7-utils';
+import { AttributeType, gl, IEncodeFeature, IModel } from '@cgcs2000/l7-core';
+import { rgb2arr } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { PolygonExtrudeTriangulation } from '../../core/triangulation';
 import buildFrag from '../shaders/build_frag.glsl';

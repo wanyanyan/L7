@@ -20,8 +20,8 @@ import {
   IRendererService,
   ITexture2D,
   ITexture2DInitializationOptions,
-} from '@antv/l7-core';
-import { isMini } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { isMini } from '@cgcs2000/l7-utils';
 import { injectable } from 'inversify';
 import regl from 'l7regl';
 import 'reflect-metadata';

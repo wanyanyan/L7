@@ -5,7 +5,7 @@ import {
   ILayerGroup,
   ILayerService,
   ILngLat,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import { Container } from 'inversify';
 
 import ImageTile from './ImageTile';

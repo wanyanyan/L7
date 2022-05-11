@@ -1,4 +1,4 @@
-import { ILayer, ILayerPlugin, IMapService, TYPES } from '@antv/l7-core';
+import { ILayer, ILayerPlugin, IMapService, TYPES } from '@cgcs2000/l7-core';
 import { injectable } from 'inversify';
 import 'reflect-metadata';
 /**

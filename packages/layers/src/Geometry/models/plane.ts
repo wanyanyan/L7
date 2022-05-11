@@ -5,9 +5,9 @@ import {
   IEncodeFeature,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
-import { Version } from '@antv/l7-maps';
-import { getMask, isMini } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { Version } from '@cgcs2000/l7-maps';
+import { getMask, isMini } from '@cgcs2000/l7-utils';
 // import { mat4, vec3 } from 'gl-matrix';
 import BaseModel from '../../core/BaseModel';
 import { IGeometryLayerStyleOptions } from '../../core/interface';

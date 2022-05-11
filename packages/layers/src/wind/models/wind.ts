@@ -6,8 +6,8 @@ import {
   IModelUniform,
   ITexture2D,
   Point,
-} from '@antv/l7-core';
-import { FrequencyController } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { FrequencyController } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IWindLayerStyleOptions } from '../../core/interface';
 import { RasterImageTriangulation } from '../../core/triangulation';

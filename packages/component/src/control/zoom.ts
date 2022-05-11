@@ -1,5 +1,5 @@
-import { IControlOption } from '@antv/l7-core';
-import { bindAll, DOM } from '@antv/l7-utils';
+import { IControlOption } from '@cgcs2000/l7-core';
+import { bindAll, DOM } from '@cgcs2000/l7-utils';
 import Control, { PositionType } from './BaseControl';
 export interface IZoomControlOption extends IControlOption {
   zoomInText: string;

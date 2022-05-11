@@ -4,7 +4,7 @@ import {
   IFramebufferInitializationOptions,
   IRenderbuffer,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import regl from 'l7regl';
 import ReglTexture2D from './ReglTexture2D';
 

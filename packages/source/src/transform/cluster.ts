@@ -3,7 +3,7 @@ import {
   IParserData,
   ISourceCFG,
   ITransform,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 // @ts-ignore
 // tslint:disable-next-line:no-submodule-imports
 import Supercluster from 'supercluster/dist/supercluster';

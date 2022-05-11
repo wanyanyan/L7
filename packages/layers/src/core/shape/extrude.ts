@@ -1,4 +1,4 @@
-import { lngLatToMeters } from '@antv/l7-utils';
+import { lngLatToMeters } from '@cgcs2000/l7-utils';
 import earcut from 'earcut';
 import { vec3 } from 'gl-matrix';
 import { IPath } from './Path';

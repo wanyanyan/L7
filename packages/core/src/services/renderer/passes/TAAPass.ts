@@ -1,4 +1,4 @@
-import { $window } from '@antv/l7-utils';
+import { $window } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import blendFS from '../../../shaders/post-processing/blend.glsl';

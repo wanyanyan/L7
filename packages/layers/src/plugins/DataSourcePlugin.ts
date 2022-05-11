@@ -4,8 +4,8 @@ import {
   ILngLat,
   IMapService,
   TYPES,
-} from '@antv/l7-core';
-import Source, { DEFAULT_DATA, DEFAULT_PARSER } from '@antv/l7-source';
+} from '@cgcs2000/l7-core';
+import Source, { DEFAULT_DATA, DEFAULT_PARSER } from '@cgcs2000/l7-source';
 import { injectable } from 'inversify';
 import 'reflect-metadata';
 

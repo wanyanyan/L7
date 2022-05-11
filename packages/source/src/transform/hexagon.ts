@@ -1,4 +1,4 @@
-import { aProjectFlat, Satistics } from '@antv/l7-utils';
+import { aProjectFlat, Satistics } from '@cgcs2000/l7-utils';
 import { hexbin } from 'd3-hexbin';
 const R_EARTH = 6378000;
 import {
@@ -6,7 +6,7 @@ import {
   IParserData,
   ISourceCFG,
   ITransform,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 interface IHexBinItem<T> extends Array<T> {
   x: number;
   y: number;

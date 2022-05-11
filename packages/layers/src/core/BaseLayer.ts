@@ -47,9 +47,9 @@ import {
   StyleAttributeOption,
   Triangulation,
   TYPES,
-} from '@antv/l7-core';
-import Source from '@antv/l7-source';
-import { encodePickingColor } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import Source from '@cgcs2000/l7-source';
+import { encodePickingColor } from '@cgcs2000/l7-utils';
 import { EventEmitter } from 'eventemitter3';
 import { Container } from 'inversify';
 import { isEqual, isFunction, isObject, isUndefined } from 'lodash';

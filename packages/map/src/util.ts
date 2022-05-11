@@ -1,4 +1,4 @@
-import { $window, isMini } from '@antv/l7-utils';
+import { $window, isMini } from '@cgcs2000/l7-utils';
 // @ts-ignore
 import UnitBezier from '@mapbox/unitbezier';
 let reducedMotionQuery: MediaQueryList;

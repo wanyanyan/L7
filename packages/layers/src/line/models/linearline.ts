@@ -5,9 +5,9 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 
-import { generateColorRamp, getMask, IColorRamp } from '@antv/l7-utils';
+import { generateColorRamp, getMask, IColorRamp } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { ILineLayerStyleOptions } from '../../core/interface';
 import { LineTriangulation } from '../../core/triangulation';

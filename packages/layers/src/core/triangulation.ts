@@ -1,5 +1,5 @@
-import { IEncodeFeature } from '@antv/l7-core';
-import { aProjectFlat, lngLatToMeters } from '@antv/l7-utils';
+import { IEncodeFeature } from '@cgcs2000/l7-core';
+import { aProjectFlat, lngLatToMeters } from '@cgcs2000/l7-utils';
 import earcut from 'earcut';
 // @ts-ignore
 import { mat4, vec3 } from 'gl-matrix';

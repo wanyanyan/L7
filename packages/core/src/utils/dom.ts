@@ -1,4 +1,4 @@
-import { isMini } from '@antv/l7-utils';
+import { isMini } from '@cgcs2000/l7-utils';
 let containerCounter = 0;
 export function createRendererContainer(
   domId: string | HTMLDivElement,

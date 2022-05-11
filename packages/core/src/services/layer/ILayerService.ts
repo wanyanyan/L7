@@ -35,7 +35,7 @@ import {
 // import {
 //   IStyleAttributeUpdateOptions,
 //   StyleAttributeField,
-// } from '@antv/l7-core';y
+// } from '@cgcs2000/l7-core';y
 export enum BlendType {
   normal = 'normal',
   additive = 'additive',

@@ -1,7 +1,7 @@
 import {
   IRenderbuffer,
   IRenderbufferInitializationOptions,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import regl from 'l7regl';
 import { formatMap } from './constants';
 

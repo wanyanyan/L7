@@ -1,5 +1,5 @@
-import { IControlOption, PositionName, PositionType } from '@antv/l7-core';
-import { bindAll, DOM, lnglatDistance } from '@antv/l7-utils';
+import { IControlOption, PositionName, PositionType } from '@cgcs2000/l7-core';
+import { bindAll, DOM, lnglatDistance } from '@cgcs2000/l7-utils';
 import Control from './BaseControl';
 export interface ILayerControlOption extends IControlOption {
   collapsed: boolean;

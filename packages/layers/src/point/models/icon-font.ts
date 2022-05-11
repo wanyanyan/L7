@@ -5,7 +5,7 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 
 import BaseModel from '../../core/BaseModel';
 import { PointImageTriangulation } from '../../core/triangulation';

@@ -2,7 +2,7 @@ import {
   IAttribute,
   IAttributeInitializationOptions,
   IBuffer,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import regl from 'l7regl';
 import ReglBuffer from './ReglBuffer';
 

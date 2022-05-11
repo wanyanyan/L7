@@ -1,4 +1,4 @@
-import { IEncodeFeature } from '@antv/l7-core';
+import { IEncodeFeature } from '@cgcs2000/l7-core';
 import BaseLayer from '../core/BaseLayer';
 import { IPolygonLayerStyleOptions } from '../core/interface';
 import PolygonModels, { PolygonModelType } from './models/';

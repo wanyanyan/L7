@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.11](https://github.com/antvis/L7/compare/v2.1.10...v2.1.11) (2020-04-07)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.8](https://github.com/antvis/L7/compare/v2.1.7...v2.1.8) (2020-03-26)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.7](https://github.com/antvis/L7/compare/v2.1.6...v2.1.7) (2020-03-26)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -40,7 +40,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.5](https://github.com/antvis/L7/compare/v2.1.4...v2.1.5) (2020-03-20)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -81,7 +81,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.34](https://github.com/antvis/L7/compare/v2.0.32...v2.0.34) (2020-03-02)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -188,7 +188,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.20](https://github.com/antvis/L7/compare/v2.0.0-beta.16...v2.0.0-beta.20) (2019-12-12)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -196,7 +196,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.19](https://github.com/antvis/L7/compare/v2.0.0-beta.16...v2.0.0-beta.19) (2019-12-08)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -204,7 +204,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.18](https://github.com/antvis/L7/compare/v2.0.0-beta.16...v2.0.0-beta.18) (2019-12-08)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -212,7 +212,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.17](https://github.com/antvis/L7/compare/v2.0.0-beta.16...v2.0.0-beta.17) (2019-12-08)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -220,7 +220,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.16](https://github.com/antvis/L7/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -228,7 +228,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.15](https://github.com/antvis/L7/compare/v2.0.0-beta.14...v2.0.0-beta.15) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -236,7 +236,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.13](https://github.com/antvis/L7/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2019-11-28)
 
-**Note:** Version bump only for package @antv/l7-scene
+**Note:** Version bump only for package @cgcs2000/l7-scene
 
 
 
@@ -267,7 +267,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **component:** add layer control ([7f4646e](https://github.com/antvis/L7/commit/7f4646efd3b0004fde4e9f6860e618c7668af1a7))
 * **component:** add scale ,zoom, popup, marker map method ([a6baef4](https://github.com/antvis/L7/commit/a6baef4954c11d9c6582c27de2ba667f18538460))
 * **core:** add map method ([853c190](https://github.com/antvis/L7/commit/853c1901fbb8559a9d3bdb3631ec13a7dcaf0ea7))
-* **map:** adjust Scene API, use @antv/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
+* **map:** adjust Scene API, use @cgcs2000/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
 * **multi-pass:** support TAA(Temporal Anti-Aliasing) ([2cf0824](https://github.com/antvis/L7/commit/2cf082439ad04eb84b96b2922e45082476452aec))
 * **picking:** support PixelPickingPass and highlight the picked feature ([ff0ffa0](https://github.com/antvis/L7/commit/ff0ffa057e2f533dc6ac92f40d3892f9dd57fafb))
 * **point image:** add point image ([89b2513](https://github.com/antvis/L7/commit/89b25133a17f308c3e884c49baebcd3cc7a9470a))

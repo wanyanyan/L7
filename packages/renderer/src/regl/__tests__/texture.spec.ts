@@ -1,4 +1,4 @@
-import { gl } from '@antv/l7-core';
+import { gl } from '@cgcs2000/l7-core';
 import regl from 'l7regl';
 import 'reflect-metadata';
 import copy from '../../../../core/src/shaders/post-processing/copy.glsl';

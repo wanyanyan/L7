@@ -1,4 +1,4 @@
-import { IParserData } from '@antv/l7-core';
+import { IParserData } from '@cgcs2000/l7-core';
 type CallBack = (...args: any[]) => any;
 export function map(data: IParserData, options: { [key: string]: any }) {
   const { callback } = options;

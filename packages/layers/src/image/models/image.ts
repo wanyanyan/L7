@@ -4,8 +4,8 @@ import {
   IEncodeFeature,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
-import { getMask, isMini } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getMask, isMini } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IImageLayerStyleOptions } from '../../core/interface';
 import { RasterImageTriangulation } from '../../core/triangulation';

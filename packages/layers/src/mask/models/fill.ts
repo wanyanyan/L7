@@ -1,4 +1,4 @@
-import { gl, IModel } from '@antv/l7-core';
+import { gl, IModel } from '@cgcs2000/l7-core';
 import { isNumber } from 'lodash';
 import BaseModel from '../../core/BaseModel';
 import { IMaskLayerStyleOptions } from '../../core/interface';

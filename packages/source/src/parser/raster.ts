@@ -1,4 +1,4 @@
-import { IParserData, IRasterCfg } from '@antv/l7-core';
+import { IParserData, IRasterCfg } from '@cgcs2000/l7-core';
 export default function raster(data: number[], cfg: IRasterCfg): IParserData {
   const { extent, width, height, min, max } = cfg;
   const resultData = {

@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.7](https://github.com/antvis/L7/compare/v2.1.6...v2.1.7) (2020-03-26)
 
-**Note:** Version bump only for package @antv/l7-core
+**Note:** Version bump only for package @cgcs2000/l7-core
 
 
 
@@ -98,7 +98,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.34](https://github.com/antvis/L7/compare/v2.0.32...v2.0.34) (2020-03-02)
 
-**Note:** Version bump only for package @antv/l7-core
+**Note:** Version bump only for package @cgcs2000/l7-core
 
 
 
@@ -444,7 +444,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.16](https://github.com/antvis/L7/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-core
+**Note:** Version bump only for package @cgcs2000/l7-core
 
 
 
@@ -463,7 +463,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.13](https://github.com/antvis/L7/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2019-11-28)
 
-**Note:** Version bump only for package @antv/l7-core
+**Note:** Version bump only for package @cgcs2000/l7-core
 
 
 
@@ -525,7 +525,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **layer:** point layer ([3da72c8](https://github.com/antvis/L7/commit/3da72c83ff0577455a29ba98df4bb7cd8838328a))
 * **layers:** add heatmap layer ([e04b3b2](https://github.com/antvis/L7/commit/e04b3b268b9fdc4bea150d2db1fdaae227f51fc8))
 * **layers:** add polygon3d , pointimagelayer ([75f2eaa](https://github.com/antvis/L7/commit/75f2eaa083064ff21c8bbe13f5f6770682c23241))
-* **map:** adjust Scene API, use @antv/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
+* **map:** adjust Scene API, use @cgcs2000/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
 * **multi-pass:** support TAA(Temporal Anti-Aliasing) ([2cf0824](https://github.com/antvis/L7/commit/2cf082439ad04eb84b96b2922e45082476452aec))
 * **picking:** support advanced picking API: `layer.pick({x, y})` ([3e22f21](https://github.com/antvis/L7/commit/3e22f21a5c658e4ade31c0506bd77ae787ec2fcc))
 * **picking:** support PixelPickingPass and highlight the picked feature ([ff0ffa0](https://github.com/antvis/L7/commit/ff0ffa057e2f533dc6ac92f40d3892f9dd57fafb))

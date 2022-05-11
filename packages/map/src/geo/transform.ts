@@ -1,5 +1,5 @@
 // @ts-ignore
-import { isMini } from '@antv/l7-utils';
+import { isMini } from '@cgcs2000/l7-utils';
 import { mat2, mat4, vec3, vec4 } from 'gl-matrix';
 import Point, { PointLike } from '../geo/point';
 import { clamp, interpolate, wrap } from '../util';

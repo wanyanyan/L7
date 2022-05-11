@@ -1,4 +1,4 @@
-import { ILayer, ILayerGroup } from '@antv/l7-core';
+import { ILayer, ILayerGroup } from '@cgcs2000/l7-core';
 import BaseLayer from './BaseLayer';
 
 // 定义 LayerGroup 继承 Baselayer

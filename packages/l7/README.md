@@ -82,7 +82,7 @@ npm install @antv/l7
 
 ```javascript
 import { Scene } from '@antv/l7';
-import { Mapbox } from '@antv/l7-maps';
+import { Mapbox } from '@cgcs2000/l7-maps';
 
 const scene = new Scene({
   id: 'map',

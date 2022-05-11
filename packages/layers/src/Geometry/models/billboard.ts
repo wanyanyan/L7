@@ -5,8 +5,8 @@ import {
   IEncodeFeature,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
-import { getMask, isMini } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getMask, isMini } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IGeometryLayerStyleOptions } from '../../core/interface';
 import planeFrag from '../shaders/billboard_frag.glsl';

@@ -1,4 +1,4 @@
-import { aProjectFlat } from '@antv/l7-utils';
+import { aProjectFlat } from '@cgcs2000/l7-utils';
 
 import ExtrudePolyLine from '../extrude_polyline';
 

@@ -5,8 +5,8 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
-import { boundsContains, getMask, padBounds } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { boundsContains, getMask, padBounds } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPointLayerStyleOptions } from '../../core/interface';
 import CollisionIndex from '../../utils/collision-index';

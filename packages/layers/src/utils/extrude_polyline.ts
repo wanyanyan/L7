@@ -1,4 +1,4 @@
-import { aProjectFlat } from '@antv/l7-utils';
+import { aProjectFlat } from '@cgcs2000/l7-utils';
 import { vec2, vec3 } from 'gl-matrix';
 const tmp = vec2.create();
 const capEnd = vec2.create();

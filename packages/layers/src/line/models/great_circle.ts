@@ -7,9 +7,9 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 
-import { getMask, rgb2arr } from '@antv/l7-utils';
+import { getMask, rgb2arr } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { ILineLayerStyleOptions, lineStyleType } from '../../core/interface';
 import { LineArcTriangulation } from '../../core/triangulation';

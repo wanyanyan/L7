@@ -16,9 +16,9 @@ import {
   MapServiceEvent,
   MapStyle,
   TYPES,
-} from '@antv/l7-core';
-import { EarthMap, Map } from '@antv/l7-map';
-import { DOM } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { EarthMap, Map } from '@cgcs2000/l7-map';
+import { DOM } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import { Version } from '../version';

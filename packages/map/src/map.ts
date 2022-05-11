@@ -1,4 +1,4 @@
-import { $window, DOM, isMini } from '@antv/l7-utils';
+import { $window, DOM, isMini } from '@cgcs2000/l7-utils';
 import { merge } from 'lodash';
 import Camera from './camera';
 import './css/l7.css';

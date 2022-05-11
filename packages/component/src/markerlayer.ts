@@ -1,4 +1,4 @@
-import { IMapService, IMarker, TYPES } from '@antv/l7-core';
+import { IMapService, IMarker, TYPES } from '@cgcs2000/l7-core';
 import {
   bindAll,
   boundsContains,
@@ -6,7 +6,7 @@ import {
   IBounds,
   padBounds,
   Satistics,
-} from '@antv/l7-utils';
+} from '@cgcs2000/l7-utils';
 import { EventEmitter } from 'eventemitter3';
 import { Container } from 'inversify';
 import { merge } from 'lodash';

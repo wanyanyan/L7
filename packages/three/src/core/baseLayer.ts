@@ -1,5 +1,5 @@
-import { ILayer, IMercator } from '@antv/l7-core';
-import { BaseLayer } from '@antv/l7-layers';
+import { ILayer, IMercator } from '@cgcs2000/l7-core';
+import { BaseLayer } from '@cgcs2000/l7-layers';
 import {
   AnimationMixer,
   Camera,

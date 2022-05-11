@@ -46,11 +46,11 @@ module.exports = [
           resolve: [ '.tsx', '.ts' ],
           entries: [
             {
-              find: /^@antv\/l7-(.*)/,
+              find: /^@cgcs2000\/l7-(.*)/,
               replacement: resolveFile('packages/$1/src')
             },
             {
-              find: /^@antv\/l7$/,
+              find: /^@cgcs2000\/l7$/,
               replacement: resolveFile('packages/l7/src')
             }
           ]

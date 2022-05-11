@@ -41,7 +41,7 @@ adapterArray.forEach((name) => {
 export default [
   inject(adapterVars),
   modify({
-    find: /^@antv\/l7-(.*)/,
+    find: /^@cgcs2000\/l7-(.*)/,
     replacement: resolveFile('packages/$1/src'),
   }),
 ];

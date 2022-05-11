@@ -6,13 +6,13 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import {
   generateColorRamp,
   getCullFace,
   getMask,
   IColorRamp,
-} from '@antv/l7-utils';
+} from '@cgcs2000/l7-utils';
 import { mat4 } from 'gl-matrix';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';

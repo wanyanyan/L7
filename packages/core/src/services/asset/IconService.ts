@@ -1,4 +1,4 @@
-import { $window } from '@antv/l7-utils';
+import { $window } from '@cgcs2000/l7-utils';
 import { EventEmitter } from 'eventemitter3';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';

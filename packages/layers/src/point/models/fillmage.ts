@@ -7,9 +7,9 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
-import { Version } from '@antv/l7-maps';
-import { getCullFace, getMask } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { Version } from '@cgcs2000/l7-maps';
+import { getCullFace, getMask } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPointLayerStyleOptions } from '../../core/interface';
 import { PointFillTriangulation } from '../../core/triangulation';

@@ -1,4 +1,9 @@
-import { IMapService, IMercator, IRendererService, TYPES } from '@antv/l7-core';
+import {
+  IMapService,
+  IMercator,
+  IRendererService,
+  TYPES,
+} from '@cgcs2000/l7-core';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 

@@ -16,9 +16,9 @@ import {
   MapServiceEvent,
   MapStyle,
   TYPES,
-} from '@antv/l7-core';
-import { Map } from '@antv/l7-map';
-import { $window, DOM } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { Map } from '@cgcs2000/l7-map';
+import { $window, DOM } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import { ISimpleMapCoord, SimpleMapCoord } from '../simpleMapCoord';

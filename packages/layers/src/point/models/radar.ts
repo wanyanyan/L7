@@ -8,8 +8,8 @@ import {
   ILayerConfig,
   IModel,
   IModelUniform,
-} from '@antv/l7-core';
-import { getCullFace, getMask } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getCullFace, getMask } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPointLayerStyleOptions } from '../../core/interface';
 import { PointFillTriangulation } from '../../core/triangulation';
@@ -17,7 +17,7 @@ import { PointFillTriangulation } from '../../core/triangulation';
 import pointFillFrag from '../shaders/radar/radar_frag.glsl';
 import pointFillVert from '../shaders/radar/radar_vert.glsl';
 
-import { Version } from '@antv/l7-maps';
+import { Version } from '@cgcs2000/l7-maps';
 
 export default class RadarModel extends BaseModel {
   public meter2coord: number = 1;

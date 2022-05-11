@@ -1,5 +1,10 @@
-import { AttributeType, gl, IEncodeFeature, ITexture2D } from '@antv/l7-core';
-import { generateColorRamp, IColorRamp } from '@antv/l7-utils';
+import {
+  AttributeType,
+  gl,
+  IEncodeFeature,
+  ITexture2D,
+} from '@cgcs2000/l7-core';
+import { generateColorRamp, IColorRamp } from '@cgcs2000/l7-utils';
 import BaseLayer from '../core/BaseLayer';
 import { RasterImageTriangulation } from '../core/triangulation';
 import rasterImageFrag from './shaders/raster_2d_frag.glsl';

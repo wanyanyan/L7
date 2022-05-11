@@ -3,7 +3,7 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md"],
-      "allowBranch": ["publish", "docs"],
+      "allowBranch": ["publish", "docs", "cgcs2000"],
       "message": "chore: publish",
       "registry": "https://registry.npmjs.org"
     }

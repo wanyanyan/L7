@@ -11,9 +11,9 @@ import {
   IStyleAttributeService,
   Position,
   TYPES,
-} from '@antv/l7-core';
-import { Version } from '@antv/l7-maps';
-import { isColor, normalize, rgb2arr, unProjectFlat } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { Version } from '@cgcs2000/l7-maps';
+import { isColor, normalize, rgb2arr, unProjectFlat } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import { cloneDeep } from 'lodash';
 import 'reflect-metadata';

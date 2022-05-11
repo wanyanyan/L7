@@ -1,4 +1,4 @@
-import { ILayerConfig, IModelUniform } from '@antv/l7-core';
+import { ILayerConfig, IModelUniform } from '@cgcs2000/l7-core';
 import BaseModel from '../../core/BaseModel';
 import {
   CanvasUpdateType,

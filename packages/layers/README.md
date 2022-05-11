@@ -3,14 +3,14 @@
 ## Installation
 
 ```bash
-yarn add @antv/l7-layers
+yarn add @cgcs2000/l7-layers
 ```
 
 ## Getting Started
 
 Use built-in layers directly:
 ```typescript
-import { PointLayer } from '@antv/l7-layers';
+import { PointLayer } from '@cgcs2000/l7-layers';
 
 const layer = new PointLayer({
   // ...initialization options
@@ -19,7 +19,7 @@ const layer = new PointLayer({
 
 Create a custom layer with the help of `BaseLayer`:
 ```typescript
-import { BaseLayer } from '@antv/l7-layers';
+import { BaseLayer } from '@cgcs2000/l7-layers';
 
 class MyCustomLayer extends BaseLayer {
   // ...override methods

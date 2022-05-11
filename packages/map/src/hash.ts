@@ -1,6 +1,6 @@
 // @ts-ignore
 // tslint:disable-next-line:no-submodule-imports
-import { $window } from '@antv/l7-utils';
+import { $window } from '@cgcs2000/l7-utils';
 import { throttle } from 'lodash';
 import { Map } from './map';
 

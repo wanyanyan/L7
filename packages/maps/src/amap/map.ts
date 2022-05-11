@@ -18,8 +18,8 @@ import {
   MapServiceEvent,
   MapStyle,
   TYPES,
-} from '@antv/l7-core';
-import { DOM } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { DOM } from '@cgcs2000/l7-utils';
 import { mat4, vec2, vec3 } from 'gl-matrix';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';

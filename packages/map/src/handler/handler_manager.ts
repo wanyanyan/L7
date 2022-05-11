@@ -1,6 +1,6 @@
 // @ts-ignore
 // tslint:disable-next-line: no-submodule-imports
-import { $window, isMini } from '@antv/l7-utils';
+import { $window, isMini } from '@cgcs2000/l7-utils';
 import { merge } from 'lodash';
 import { EarthMap } from '../earthmap';
 import Point from '../geo/point';

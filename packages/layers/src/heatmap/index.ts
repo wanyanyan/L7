@@ -1,4 +1,4 @@
-import { IAttrubuteAndElements } from '@antv/l7-core';
+import { IAttrubuteAndElements } from '@cgcs2000/l7-core';
 import BaseLayer from '../core/BaseLayer';
 import { IHeatMapLayerStyleOptions } from '../core/interface';
 import HeatMapModels, { HeatMapModelType } from './models';

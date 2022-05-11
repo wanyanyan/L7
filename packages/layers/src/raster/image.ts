@@ -4,7 +4,7 @@
 //   IEncodeFeature,
 //   ILayer,
 //   ITexture2D,
-// } from '@antv/l7-core';
+// } from '@cgcs2000/l7-core';
 // import BaseLayer from '../core/BaseLayer';
 // import { RasterImageTriangulation } from '../core/triangulation';
 // import rasterImageFrag from './shaders/image_frag.glsl';

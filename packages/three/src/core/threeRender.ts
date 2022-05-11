@@ -1,4 +1,4 @@
-import { Scene } from '@antv/l7-scene';
+import { Scene } from '@cgcs2000/l7-scene';
 import {
   IThreeRenderService,
   ThreeRenderService,

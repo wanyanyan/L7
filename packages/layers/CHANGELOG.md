@@ -17,7 +17,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.11](https://github.com/antvis/L7/compare/v2.1.10...v2.1.11) (2020-04-07)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -47,7 +47,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.5](https://github.com/antvis/L7/compare/v2.1.4...v2.1.5) (2020-03-20)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.1](https://github.com/antvis/L7/compare/v2.0.36...v2.1.1) (2020-03-15)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -88,7 +88,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.34](https://github.com/antvis/L7/compare/v2.0.32...v2.0.34) (2020-03-02)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -391,7 +391,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.16](https://github.com/antvis/L7/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -399,7 +399,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.15](https://github.com/antvis/L7/compare/v2.0.0-beta.14...v2.0.0-beta.15) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -407,7 +407,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.14](https://github.com/antvis/L7/compare/v2.0.0-beta.13...v2.0.0-beta.14) (2019-11-28)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 
@@ -415,7 +415,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.13](https://github.com/antvis/L7/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2019-11-28)
 
-**Note:** Version bump only for package @antv/l7-layers
+**Note:** Version bump only for package @cgcs2000/l7-layers
 
 
 

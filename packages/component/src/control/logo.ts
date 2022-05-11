@@ -1,5 +1,5 @@
-import { IControlOption } from '@antv/l7-core';
-import { DOM } from '@antv/l7-utils';
+import { IControlOption } from '@cgcs2000/l7-core';
+import { DOM } from '@cgcs2000/l7-utils';
 import Control, { PositionType } from './BaseControl';
 export default class Logo extends Control {
   public getDefault() {

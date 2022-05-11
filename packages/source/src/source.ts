@@ -11,8 +11,8 @@ import {
   ITransform,
   lazyInject,
   TYPES,
-} from '@antv/l7-core';
-import { bBoxToBounds, extent, padBounds } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { bBoxToBounds, extent, padBounds } from '@cgcs2000/l7-utils';
 import {
   BBox,
   Feature,

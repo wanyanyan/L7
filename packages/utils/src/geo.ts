@@ -74,9 +74,10 @@ export function lngLatToMeters(
   const lng = lnglat[0];
   const lat = lnglat[1];
   let x = (lng * originShift) / 180.0;
-  let y =
-    Math.log(Math.tan(((90 + lat) * Math.PI) / 360.0)) / (Math.PI / 180.0);
-  y = (y * originShift) / 180.0;
+  let y = (lat * originShift) / 180.0;
+  // let y =
+  //   Math.log(Math.tan(((90 + lat) * Math.PI) / 360.0)) / (Math.PI / 180.0);
+  // y = (y * originShift) / 180.0;
   if (accuracy.enable) {
     x = Number(x.toFixed(accuracy.decimal));
     y = Number(y.toFixed(accuracy.decimal));
@@ -89,9 +90,10 @@ export function metersToLngLat(meters: Point, decimal = 6) {
   const y = meters[1];
   let lng = (x / originShift) * 180.0;
   let lat = (y / originShift) * 180.0;
-  lat =
-    (180 / Math.PI) *
-    (2 * Math.atan(Math.exp((lat * Math.PI) / 180.0)) - Math.PI / 2.0);
+  // let lat = (y / originShift) * 180.0;
+  // lat =
+  //   (180 / Math.PI) *
+  //   (2 * Math.atan(Math.exp((lat * Math.PI) / 180.0)) - Math.PI / 2.0);
   if (decimal !== undefined && decimal !== null) {
     lng = Number(lng.toFixed(decimal));
     lat = Number(lat.toFixed(decimal));
@@ -161,7 +163,8 @@ export function aProjectFlat(lnglat: number[]) {
   let d = Math.PI / 180;
   let x = lnglat[0] * d;
   let y = lat * d;
-  y = Math.log(Math.tan(Math.PI / 4 + y / 2));
+  // let y = lat * d;
+  // y = Math.log(Math.tan(Math.PI / 4 + y / 2));
 
   const a = 0.5 / Math.PI;
   const b = 0.5;
@@ -180,7 +183,7 @@ export function unProjectFlat(px: number[]): [number, number] {
   let [x, y] = px;
   x = (x / scale - b) / a;
   y = (y / scale - d) / c;
-  y = (Math.atan(Math.pow(Math.E, y)) - Math.PI / 4) * 2;
+  // y = (Math.atan(Math.pow(Math.E, y)) - Math.PI / 4) * 2;
   d = Math.PI / 180;
   const lat = y / d;
   const lng = x / d;
@@ -212,7 +215,8 @@ export function project(lnglat: [number, number]) {
   const lat = Math.max(Math.min(max, lnglat[1]), -max);
   const sin = Math.sin(lat * d);
   const x = earthRadius * lnglat[0] * d;
-  const y = (earthRadius * Math.log((1 + sin) / (1 - sin))) / 2;
+  const y = earthRadius * lat * d;
+  // const y = (earthRadius * Math.log((1 + sin) / (1 - sin))) / 2;
 
   return [x, y];
 }

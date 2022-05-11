@@ -1,5 +1,5 @@
 /// <reference types="amap-js-api" />
-import { IControl } from 'mapbox-gl';
+import { IControl } from '@cgcs2000/mapbox-gl';
 
 interface Window {
   initAMap: () => void;

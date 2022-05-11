@@ -18,7 +18,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.11](https://github.com/antvis/L7/compare/v2.1.10...v2.1.11) (2020-04-07)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -26,7 +26,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.8](https://github.com/antvis/L7/compare/v2.1.7...v2.1.8) (2020-03-26)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -34,7 +34,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.7](https://github.com/antvis/L7/compare/v2.1.6...v2.1.7) (2020-03-26)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -42,7 +42,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.1.5](https://github.com/antvis/L7/compare/v2.1.4...v2.1.5) (2020-03-20)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -309,7 +309,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.16](https://github.com/antvis/L7/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2019-11-29)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -328,7 +328,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.13](https://github.com/antvis/L7/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2019-11-28)
 
-**Note:** Version bump only for package @antv/l7-maps
+**Note:** Version bump only for package @cgcs2000/l7-maps
 
 
 
@@ -370,6 +370,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **core:** add map method ([853c190](https://github.com/antvis/L7/commit/853c1901fbb8559a9d3bdb3631ec13a7dcaf0ea7))
 * **demo:** add point chart demo ([8c2e4a8](https://github.com/antvis/L7/commit/8c2e4a82bf7a49b29004d5e261d8e9c46cd0bd9d))
 * **layers:** add girdheatmap  add raster imagelayer ([ddd1d0e](https://github.com/antvis/L7/commit/ddd1d0ef38cc44767d2ec5329eb844c31d847938))
-* **map:** adjust Scene API, use @antv/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
+* **map:** adjust Scene API, use @cgcs2000/l7-maps instead ([77b8f21](https://github.com/antvis/L7/commit/77b8f21b0bcf8b06e88d8e0bef213935bf32b957)), closes [#86](https://github.com/antvis/L7/issues/86)
 * **picking:** support PixelPickingPass and highlight the picked feature ([ff0ffa0](https://github.com/antvis/L7/commit/ff0ffa057e2f533dc6ac92f40d3892f9dd57fafb))
 * **scene:** scene service inTransientScope ([ccf1ff4](https://github.com/antvis/L7/commit/ccf1ff464e1b220650e61c0999846725b075ef3a))

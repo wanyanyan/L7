@@ -1,5 +1,5 @@
 {
-  "name": "@antv/l7-renderer",
+  "name": "@cgcs2000/l7-renderer",
   "version": "2.8.35",
   "description": "",
   "main": "lib/index.js",
@@ -26,7 +26,7 @@
     "gl": "^4.4.0"
   },
   "dependencies": {
-    "@antv/l7-core": "^2.8.35",
+    "@cgcs2000/l7-core": "^2.8.35",
     "@babel/runtime": "^7.7.7",
     "inversify": "^5.0.1",
     "l7regl": "^0.0.20",

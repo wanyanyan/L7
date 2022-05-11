@@ -4,8 +4,8 @@ import {
   IEncodeFeature,
   IModel,
   Triangulation,
-} from '@antv/l7-core';
-import { getMask } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getMask } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPolygonLayerStyleOptions } from '../../core/interface';
 import {

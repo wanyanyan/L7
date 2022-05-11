@@ -1,4 +1,4 @@
-import { IPostProcessingPass } from '@antv/l7-core';
+import { IPostProcessingPass } from '@cgcs2000/l7-core';
 
 export default interface IPostProcessingPassPluggable {
   /**

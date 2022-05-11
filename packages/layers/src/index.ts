@@ -1,4 +1,4 @@
-import { container, ILayerPlugin, TYPES } from '@antv/l7-core';
+import { container, ILayerPlugin, TYPES } from '@cgcs2000/l7-core';
 import CanvasLayer from './canvas';
 import CityBuildingLayer from './citybuliding/building';
 import BaseLayer from './core/BaseLayer';

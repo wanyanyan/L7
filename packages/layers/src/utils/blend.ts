@@ -1,4 +1,4 @@
-import { BlendType, gl, IBlendOptions, IBlendTypes } from '@antv/l7-core';
+import { BlendType, gl, IBlendOptions, IBlendTypes } from '@cgcs2000/l7-core';
 export const BlendTypes: IBlendTypes = {
   [BlendType.additive]: {
     enable: true,

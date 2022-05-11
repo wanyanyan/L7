@@ -1,4 +1,4 @@
-import { ILayer, StyleAttributeField } from '@antv/l7-core';
+import { ILayer, StyleAttributeField } from '@cgcs2000/l7-core';
 // TODO: shapeUpdateList 存储一系列的 shape 类型
 // 当这一系列的 shape 相互切换的时候需要重构 layer 的 model (顶点数据集)
 const shapeUpdateList = [

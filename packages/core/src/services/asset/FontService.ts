@@ -1,4 +1,4 @@
-import { $window, LRUCache } from '@antv/l7-utils';
+import { $window, LRUCache } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import TinySDF from 'l7-tiny-sdf';
 import 'reflect-metadata';

@@ -4,8 +4,8 @@ import {
   IEncodeFeature,
   ILayerConfig,
   IModel,
-} from '@antv/l7-core';
-import { getCullFace, rgb2arr } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getCullFace, rgb2arr } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPointLayerStyleOptions } from '../../core/interface';
 import { PointExtrudeTriangulation } from '../../core/triangulation';

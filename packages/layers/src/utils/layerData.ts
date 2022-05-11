@@ -8,10 +8,10 @@ import {
   IStyleAttribute,
   IStyleAttributeService,
   Position,
-} from '@antv/l7-core';
-import { Version } from '@antv/l7-maps';
-import Source from '@antv/l7-source';
-import { isColor, normalize, rgb2arr } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { Version } from '@cgcs2000/l7-maps';
+import Source from '@cgcs2000/l7-source';
+import { isColor, normalize, rgb2arr } from '@cgcs2000/l7-utils';
 import { ILineLayerStyleOptions } from '../core/interface';
 
 function getArrowPoints(p1: Position, p2: Position) {

@@ -8,8 +8,8 @@ import {
   ILayerConfig,
   IModel,
   IModelUniform,
-} from '@antv/l7-core';
-import { getCullFace, getMask } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getCullFace, getMask } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPointLayerStyleOptions } from '../../core/interface';
 import {
@@ -22,7 +22,7 @@ import waveFillFrag from '../shaders/animate/wave_frag.glsl';
 import pointFillFrag from '../shaders/fill_frag.glsl';
 import pointFillVert from '../shaders/fill_vert.glsl';
 
-import { Version } from '@antv/l7-maps';
+import { Version } from '@cgcs2000/l7-maps';
 import { mat4, vec3 } from 'gl-matrix';
 export default class FillModel extends BaseModel {
   public meter2coord: number = 1;

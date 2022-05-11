@@ -1,5 +1,5 @@
-import { IAnimateOption, IMapService } from '@antv/l7-core';
-import { IColorRamp } from '@antv/l7-utils';
+import { IAnimateOption, IMapService } from '@cgcs2000/l7-core';
+import { IColorRamp } from '@cgcs2000/l7-utils';
 import { styleOffset, styleSingle } from '../core/BaseModel';
 import { anchorType } from '../utils/symbol-layout';
 export enum lineStyleType {

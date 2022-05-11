@@ -6,12 +6,12 @@ import {
   ILayerPlugin,
   IRendererService,
   IStyleAttributeService,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import {
   decodePickingColor,
   encodePickingColor,
   rgb2arr,
-} from '@antv/l7-utils';
+} from '@cgcs2000/l7-utils';
 import { injectable } from 'inversify';
 import 'reflect-metadata';
 

@@ -7,7 +7,7 @@ import {
   IModel,
   IModelUniform,
   ITexture2D,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 
 import BaseModel, { styleOffset, styleSingle } from '../../core/BaseModel';
 import { earthTriangulation } from '../../core/triangulation';

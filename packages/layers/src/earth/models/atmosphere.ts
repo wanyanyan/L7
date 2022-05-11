@@ -4,7 +4,7 @@ import {
   IEncodeFeature,
   IModel,
   IModelUniform,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 import { isNumber } from 'lodash';
 
 import BaseModel from '../../core/BaseModel';

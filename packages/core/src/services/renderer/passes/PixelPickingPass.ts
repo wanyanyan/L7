@@ -1,4 +1,8 @@
-import { decodePickingColor, DOM, encodePickingColor } from '@antv/l7-utils';
+import {
+  decodePickingColor,
+  DOM,
+  encodePickingColor,
+} from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import { TYPES } from '../../../types';

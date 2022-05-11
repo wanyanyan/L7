@@ -29,6 +29,7 @@
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "@loadable/component": "^5.15.0",
+    "@material-ui/core": "^4.10.2",
     "@rollup/plugin-alias": "2.2.0",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-json": "^4.0.0",
@@ -88,7 +89,6 @@
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "jest-electron": "^0.1.11",
-    "@material-ui/core": "^4.10.2",
     "jest-styled-components": "^6.2.1",
     "lerna": "^3.16.4",
     "lint-staged": "^9.2.4",
@@ -208,6 +208,7 @@
     "mode": "yarn"
   },
   "dependencies": {
-    "@antv/geo-coord": "^1.0.8"
+    "@antv/geo-coord": "^1.0.8",
+    "@cgcs2000/viewport-cgcs2000-project": "6.2.2-a"
   }
 }

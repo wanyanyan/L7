@@ -4,8 +4,8 @@ import {
   IEncodeFeature,
   IModel,
   ITexture2D,
-} from '@antv/l7-core';
-import { getMask, rgb2arr } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { getMask, rgb2arr } from '@cgcs2000/l7-utils';
 import BaseModel from '../../core/BaseModel';
 import { IPolygonLayerStyleOptions } from '../../core/interface';
 import { PolygonExtrudeTriangulation } from '../../core/triangulation';

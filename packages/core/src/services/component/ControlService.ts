@@ -1,4 +1,4 @@
-import { DOM } from '@antv/l7-utils';
+import { DOM } from '@cgcs2000/l7-utils';
 import { Container, injectable } from 'inversify';
 import 'reflect-metadata';
 import { TYPES } from '../../types';

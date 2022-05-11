@@ -1,4 +1,4 @@
-import { Logo } from '@antv/l7-component';
+import { Logo } from '@cgcs2000/l7-component';
 import {
   Bounds,
   createLayerContainer,
@@ -29,10 +29,10 @@ import {
   Point,
   SceneEventList,
   TYPES,
-} from '@antv/l7-core';
-import { MaskLayer } from '@antv/l7-layers';
-import { ReglRendererService } from '@antv/l7-renderer';
-import { DOM, isMini } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { MaskLayer } from '@cgcs2000/l7-layers';
+import { ReglRendererService } from '@cgcs2000/l7-renderer';
+import { DOM, isMini } from '@cgcs2000/l7-utils';
 import { Container } from 'inversify';
 import ILayerManager from './ILayerManager';
 import IMapController from './IMapController';

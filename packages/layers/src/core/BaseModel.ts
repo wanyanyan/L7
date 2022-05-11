@@ -25,8 +25,8 @@ import {
   lazyInject,
   Triangulation,
   TYPES,
-} from '@antv/l7-core';
-import { rgb2arr } from '@antv/l7-utils';
+} from '@cgcs2000/l7-core';
+import { rgb2arr } from '@cgcs2000/l7-utils';
 import { color } from 'd3-color';
 import { isEqual, isFunction, isNumber, isString } from 'lodash';
 import { BlendTypes } from '../utils/blend';

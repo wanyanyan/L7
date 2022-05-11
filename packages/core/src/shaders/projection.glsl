@@ -37,7 +37,8 @@ vec2 project_mercator(vec2 lnglat) {
   float x = lnglat.x;
   return vec2(
     radians(x) + PI,
-    PI - log(tan(PI * 0.25 + radians(lnglat.y) * 0.5))
+    PI * 0.5 - radians(lnglat.y)
+    //PI - log(tan(PI * 0.25 + radians(lnglat.y) * 0.5))
   );
 }
 

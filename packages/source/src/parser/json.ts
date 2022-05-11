@@ -5,7 +5,7 @@ import {
   IParseDataItem,
   IParserCfg,
   IParserData,
-} from '@antv/l7-core';
+} from '@cgcs2000/l7-core';
 // @ts-ignore
 import rewind from '@mapbox/geojson-rewind';
 export default function json(data: IJsonData, cfg: IParserCfg): IParserData {

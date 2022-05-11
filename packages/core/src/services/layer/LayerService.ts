@@ -1,4 +1,4 @@
-import { $window, rgb2arr } from '@antv/l7-utils';
+import { $window, rgb2arr } from '@cgcs2000/l7-utils';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
 import { ILayer } from '../..';
